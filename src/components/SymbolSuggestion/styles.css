@@ -1,0 +1,59 @@
+.input-suggestion {
+  position: relative;
+}
+
+.text-input {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.suggestion {
+  min-width: 150px;
+  border: 1px solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding: 0.5rem 0;
+  display: none;
+  z-index: 1;
+  background-color: white;
+}
+
+.suggestion-show {
+  display: block;
+}
+
+.suggestion-item {
+  cursor: pointer;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.suggestion-item:hover {
+  background-color: #eee;
+}
+
+.submit-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+}
+
+.submitted-suggestion {
+  display: flex;
+  margin: 0.5rem;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.ss-value {
+  padding: 0.4rem;
+}
+
+.ss-remove {
+  padding: 0.4rem;
+  margin: 0;
+  cursor: pointer;
+}
